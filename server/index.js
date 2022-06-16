@@ -25,6 +25,6 @@ socketIo.on("connection", (socket) => {
   });
 });
 
-server.listen(3000, () => {
-    console.log('Server đang chay tren cong 3000');
+server.listen(8080, () => {
+    console.log('Server is running on 8080');
 });
